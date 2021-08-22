@@ -52,8 +52,8 @@ class Iframe {
       /**
        * Tool's classes
        */
-      wrapper: 'cdx-simple-image',
-      holder: ['cdx-simple-image__picture', 'flex'],
+      wrapper: 'editorjs-iframe',
+      holder: ['editorjs-iframe__frame', 'flex'],
     };
 
     /**
