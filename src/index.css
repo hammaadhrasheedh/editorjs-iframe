@@ -29,15 +29,15 @@
   opacity: 0;
 }
 
-.flex{
+.iframe-flex{
   display: flex;
 }
-.justify-start {
+.iframe-justify-start {
   justify-content: flex-start;
 }
-.justify-end {
+.iframe-justify-end {
   justify-content: flex-end;
 }
-.justify-center {
+.iframe-justify-center {
   justify-content: center;
 }

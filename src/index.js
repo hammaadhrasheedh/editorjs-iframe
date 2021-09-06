@@ -93,6 +93,7 @@ class Iframe {
     ];
   }
 
+   static title   = 'Bold';
   /**
    * Creates a Block:
    *  1) Show preloader
@@ -313,21 +314,21 @@ class Iframe {
    */
   _acceptTuneView() {
       if(this.data['alignment'] == 'LeftAligned'){
-        this.nodes.holder.classList.add('justify-start')
+        this.nodes.holder.classList.add('iframe-justify-start')
       }else{
-        this.nodes.holder.classList.remove('justify-start')
+        this.nodes.holder.classList.remove('iframe-justify-start')
       }
 
       if(this.data['alignment'] == 'RightAligned'){
-        this.nodes.holder.classList.add('justify-end')
+        this.nodes.holder.classList.add('iframe-justify-end')
       }else{
-        this.nodes.holder.classList.remove('justify-end')
+        this.nodes.holder.classList.remove('iframe-justify-end')
       }
 
       if(this.data['alignment'] == 'Centered'){
-        this.nodes.holder.classList.add('justify-center')
+        this.nodes.holder.classList.add('iframe-justify-center')
       }else{
-        this.nodes.holder.classList.remove('justify-center')
+        this.nodes.holder.classList.remove('iframe-justify-center')
       }
   }
 }
