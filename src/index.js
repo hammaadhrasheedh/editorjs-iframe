@@ -53,7 +53,7 @@ class Iframe {
        * Tool's classes
        */
       wrapper: 'editorjs-iframe',
-      holder: ['editorjs-iframe__frame', 'flex'],
+      holder: ['editorjs-iframe__frame', 'iframe-flex'],
     };
 
     /**
